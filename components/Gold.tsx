@@ -1,6 +1,13 @@
 import React from 'react';
 
-const Award = ({ title, championship, Kick, details }) => (
+interface AwardProps {
+  title: string;
+  championship: string;
+  Kick: string;
+  details: string;
+}
+
+const Award: React.FC<AwardProps> = ({ title, championship, Kick, details }) => (
   <div className="award">
     <p>
       <span className="gold">{title}</span> {championship}
@@ -11,7 +18,7 @@ const Award = ({ title, championship, Kick, details }) => (
 );
 
 const Gold = () => {
-  const awards = [
+  const awards: AwardProps[] = [
     { title: '2 X GOLD', championship: '- WAKO SENIOR WORLD', Kick: 'KICKBOXING CHAMPIONSHIPS', details: '-63KG SENIOR MEN\'S IC KICKBOXING 2021 & 2011.' },
     { title: '2 X GOLD', championship: '- WAKO SENIOR WORLD', Kick: 'KICKBOXING CHAMPIONSHIPS', details: '-63KG SENIOR MEN\'S IC KICKBOXING 2021 & 2011.' },
     { title: '2 X GOLD', championship: '- WAKO SENIOR WORLD', Kick: 'KICKBOXING CHAMPIONSHIPS', details: '-63KG SENIOR MEN\'S IC KICKBOXING 2021 & 2011.' },
