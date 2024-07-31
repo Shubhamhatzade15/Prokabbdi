@@ -1,14 +1,14 @@
 'use client';
+
 import Image from 'next/image';
 
-
 function Match() {
-  const handleMouseOver = (e) => {
-    e.target.style.transform = 'scale(1.2)';
+  const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>) => {
+    (e.target as HTMLElement).style.transform = 'scale(1.2)';
   };
 
-  const handleMouseOut = (e) => {
-    e.target.style.transform = 'scale(1)';
+  const handleMouseOut = (e: React.MouseEvent<HTMLDivElement>) => {
+    (e.target as HTMLElement).style.transform = 'scale(1)';
   };
 
   return (
