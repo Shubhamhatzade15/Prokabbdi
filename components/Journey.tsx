@@ -1,13 +1,13 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
-
+import Image from 'next/image';
 
 const Journey = () => {
   return (
     <div className="container-j">
       <div className="title-j">
         <div className="journey-of-kabaddi">JOURNEY OF KABADDI</div>
-        <img src="/reach.png" alt="Matter" className="reach-image" />
+        <Image src="/reach.png" alt="Matter" className="reach-image" width={800} height={500} />
         <div className="your">YOUR FULL</div>
       </div>
 
@@ -28,7 +28,7 @@ const Journey = () => {
           </div>
           <div className="right-side">
             <div className="image">
-              <img src="/journey.png" alt="Kabaddi Players" />
+              <Image src="/journey.png" alt="Kabaddi Players" width={800} height={500} />
             </div>
           </div>
         </div>

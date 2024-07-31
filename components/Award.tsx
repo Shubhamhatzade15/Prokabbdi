@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-
 const Awards = () => {
   return (
     <div className="awards-container">

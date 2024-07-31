@@ -1,12 +1,13 @@
 "use client";
 import React from 'react';
 import CountUp from 'react-countup';
+import Image from 'next/image';
 
 const Score = () => {
   return (
     <div className="container-s">
       <h1 className="title-s">CARRIER SCORES</h1>
-      <img src="/matter (1).png" alt="Matter" className="matter-image" />
+      <Image src="/matter (1).png" alt="Matter" className="matter-image" width={800} height={500} />
       <h2 className="subtitle">FACT</h2>
       <div className="scores">
         <div className="score">
