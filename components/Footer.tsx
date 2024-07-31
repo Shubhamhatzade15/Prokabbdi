@@ -10,6 +10,7 @@ function Footer() {
         height={1500}
         objectFit="cover"
         key="footer-image"
+        alt="Footer"
       />
     </div>
   );
