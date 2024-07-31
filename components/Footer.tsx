@@ -9,7 +9,8 @@ function Footer() {
         width={1920}
         height={1500}
         objectFit="cover"
-        key="footer-image"
+        key="footer-image" 
+        alt="Footer"
       />
     </div>
   );
