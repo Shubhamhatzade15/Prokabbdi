@@ -12,16 +12,16 @@ const Journey = () => {
       </div>
 
       <div className="container-main">
-        <div className="main-content" style={{ backgroundImage: 'url(/kk.png)' }}>
+        <div className="main-content" style={{ backgroundImage: `url(/kk.png)` }}>
           <div className="left-side">
             <div className="know">KNOW</div>
             <div className="journey">JOURNEY</div>
             <div className="text">
-              IT'S NOT THE END GOAL THAT MATTERS, IT'S LEARNING
+              IT&apos;S NOT THE END GOAL THAT MATTERS, IT&apos;S LEARNING
               TO FALL IN LOVE WITH AND EMBRACE THE PROCESS,
               ALLOWING THE GOALS TO NEVER STOP EVOLVING AND
               GROWING. AT TEK YOU ARE PART OF A TEAM AND
-              NEVER ALONE ON YOUR JOURNEY, LET'S BEGIN
+              NEVER ALONE ON YOUR JOURNEY, LET&apos;S BEGIN
               ACHIEVING TOGETHER.
             </div>
             <div className="learn-more">LEARN MORE</div>
