@@ -85,8 +85,8 @@ const Career = () => {
           </div>
         </div>
       </div>
-      <Image className="vertical-text-a" src="/akash (1).png" alt="AAKASH" width={600} height={200} />
-      <Image className="vertical-text-p" src="/pikalmunde.png" alt="AAKASH" width={600} height={200} />
+      <Image className="vertical-text-as" src="/akash (1).png" alt="AAKASH" width={300} height={200} />
+      <Image className="vertical-text-ps" src="/pikalmunde.png" alt="AAKASH" width={300} height={200} />
     </div>
   );
 };

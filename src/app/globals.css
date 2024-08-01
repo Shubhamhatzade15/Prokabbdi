@@ -128,12 +128,12 @@
 .hero-section .left h1 {
   font-family: Lato;
   font-weight: 700;
-  font-size: 120px;
+  font-size: 140px;
   margin-bottom: 0;
-  margin: 50px;
+  margin: 120px;
   line-height: 0.8;
   align-items: center;
-  margin-top: -100px;
+  margin-top: -150px;
   
 }
 
@@ -150,7 +150,7 @@
 }
 
 .hero-section .right img {
-  height: 600px;
+  height: 780px;
   vertical-align: baseline;
   align-items: baseline;
   width: 100%;
@@ -436,17 +436,17 @@ p {
   opacity: 0.5; 
 }
 
-.vertical-text-a{
+.vertical-text-as{
   position: absolute;
-  top: 240%;
+  top: 25%;
   width: 200px;
-  height: 1000px;
+  height: 900px;
   left: 0;
 }
 
-.vertical-text-p{
+.vertical-text-ps{
   position: absolute;
-  top: 350%;
+  top: 30%;
   width: 200px;
   height: 1000px;
   left: 90%;

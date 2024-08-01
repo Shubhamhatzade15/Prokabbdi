@@ -19,6 +19,9 @@ export default function Home() {
       
 
        <Hero />
+       <Introd />
+       <Career />
+      <Match />
        
        
      
