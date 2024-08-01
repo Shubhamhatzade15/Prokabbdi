@@ -150,7 +150,7 @@
 }
 
 .hero-section .right img {
-  height: 780px;
+  height: 650px;
   vertical-align: baseline;
   align-items: baseline;
   width: 100%;
@@ -483,7 +483,17 @@ p {
   .title-c{
     font-size: 35px;
   }
+
+  .vertical-text-as{
+    display: none;
+  }
+
+  .vertical-text-ps{
+    display: none;
+  }
 }
+
+
 
 /*Match*/
 .image-container-m {
