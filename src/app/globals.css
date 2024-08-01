@@ -540,7 +540,7 @@ p {
   padding: 75px;
   height: 100vh;
   width: 100%;
-  background-color: #FFFFFF;
+  
 }
 
 .title-s {
@@ -685,7 +685,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 60px;
-  margin-top: -300px;
+  margin-top: -250px;
 }
 
 .awards-text {
@@ -1225,4 +1225,285 @@ p {
   letter-spacing: 4px;
   margin: 0;
   position: relative; /* Ensure it’s correctly positioned within its parent */
+}
+
+/* Vidharbha */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: -1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.h1-container-va {
+  width: 100%;
+  max-width: 798px;
+  height: 23px;
+  position: relative;
+  top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  opacity: 1;
+  padding: 0 20px;
+}
+
+.h1-container-va h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30.8px;
+  font-weight: 700;
+  line-height: 22.63px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #D10B0B;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.h1-container-va h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 99px;
+  text-align: center;
+  color: #2E2754;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+.p-container-va {
+  width: 100%;
+  max-width: 1304px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.p-container-va p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+  color: #38465F;
+  margin-top: -50px;
+  padding: 0;
+}
+
+.img-container-va img {
+  width: 100%;
+  max-width: 599px;
+  height: auto;
+  position: absolute;
+  top: 1600px;
+  right: 710px;
+  gap: 0px;
+  opacity: 1;
+  transform: scale(0.8);
+  z-index: 1;
+}
+
+.list-container-va {
+  position: absolute;
+  width: 100%;
+  max-width: 534px;
+  height: auto;
+  top: 1640px;
+  right: 100px;
+  color: #38465F;
+  padding: 20px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  z-index: 1;
+}
+
+.list-container-va ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-container-va li {
+  padding: 10px;
+  color: #38465F;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.list-container-va li::before {
+  content: "\2605";
+  font-size: 14px;
+  color: #38465F;
+  margin-right: 10px;
+}
+
+.list-container-va li:last-child {
+  margin-bottom: 0;
+}
+
+/* Fact */
+
+.heading-containerfa {
+  width: 100%;
+  max-width: 499px;
+  height: 163px;
+  position: absolute;
+  top: 2400px;
+  left: 216px;
+  gap: 0px;
+  opacity: 1;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 0 20px;
+}
+
+.heading-containerfa h1 {
+  width: 100%;
+  max-width: 418px;
+  height: 23px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 22.63px;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #D10B0B;
+  padding: 5px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.heading-containerfa h2 {
+  width: 100%;
+  max-width: 317px;
+  height: 140px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 99px;
+  text-align: left;
+  color: #D10B0B;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-link-about {
+    font-size: 24px;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 80px;
+  }
+
+  .header h2 {
+    font-size: 100px;
+  }
+
+  .image-container2 {
+    top: 300px;
+    width: 80%;
+  }
+
+  .h1-container h1,
+  .h1-container h2 {
+    font-size: 20px;
+  }
+
+  .p-container p {
+    font-size: 18px;
+  }
+
+  .img-container img {
+    position: static;
+    width: 100%;
+    transform: none;
+    margin: 20px 0;
+  }
+
+  .list-container {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .heading-containerf h1 {
+    font-size: 20px;
+  }
+
+  .heading-containerf h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .header h1 {
+    font-size: 60px;
+  }
+
+  .header h2 {
+    font-size: 80px;
+  }
+
+  .image-container2 {
+    top: 200px;
+  }
+
+  .h1-container h1,
+  .h1-container h2 {
+    font-size: 18px;
+  }
+
+  .p-container p {
+    font-size: 16px;
+  }
+
+  .heading-containerf h1 {
+    font-size: 18px;
+  }
+
+  .heading-containerf h2 {
+    font-size: 50px;
+  }
 }

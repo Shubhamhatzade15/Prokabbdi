@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Fact = () => {
   return (
     <>
-      <div className="heading-containerf">
+      <div className="heading-containerfa">
         <h1>THOUGH OUT THE CARRIER ⎯⎯⎯</h1>
         <h2>FACT</h2>
       </div>

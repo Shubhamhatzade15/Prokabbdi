@@ -8,14 +8,14 @@ export default function Vidharbha() {
   return (
     <div>
       <main>
-        {/* Header Section */}
-        <div className="h1-container">
+       
+        <div className="h1-container-va">
           <h1>⎯⎯⎯Know the Journey⎯⎯⎯</h1>
           <h2>VIDARBHA EXPRESS</h2>
         </div>
         
-        {/* Paragraph Section */}
-        <div className="p-container">
+       
+        <div className="p-container-va">
           <p>
             Integer eget fringilla nibh, vitae tincidunt mi. Sed risus ligula, congue eget iaculis eu, maximus et nisl. In
             fringilla mauris in dui feugiat, vitae faucibus neque volutpat. Sed ultricies dui vel nunc euismod 
@@ -28,15 +28,15 @@ export default function Vidharbha() {
           </p>
         </div>
         {/* Image Section */}
-        <div className="img-container">
+        <div className="img-container-va">
           <Image
-            src="/about us main 1.png" // Replace with your image URL
+            src="/about us main 1.png" 
             alt="Vidarbha Express Image"
-            width={599} // Set the width of the image
-            height={574} // Set the height of the image
+            width={599} 
+            height={574} 
             onLoad={() => setIsImageLoaded(true)} // Set isImageLoaded to true when the image is loaded
           />
-          <div className="list-container">
+          <div className="list-container-va">
             <ul>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
