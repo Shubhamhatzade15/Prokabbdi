@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import AboutTheJourney from '../src/app/About/AboutTheJourney';
+
 
 const Navbar = () => {
   return (
@@ -10,10 +12,10 @@ const Navbar = () => {
           <Link href="/" className="navigation-link">Home</Link>
         </li>
         <li>
-          <Link href="/about" className="navigation-link">About Us</Link>
+          <Link href="/About" className="navigation-link">About Us</Link>
         </li>
         <li>
-          <Link href="/gallery" className="navigation-link">Gallery</Link>
+          <Link href="/" className="navigation-link">Gallery</Link>
         </li>
         <li>
           <Link href="/events" className="navigation-link">Events</Link>

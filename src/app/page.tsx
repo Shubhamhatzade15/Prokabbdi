@@ -11,20 +11,23 @@ import Match from "../../components/Match";
 import Gold from "../../components/Gold";
 
 
+
 export default function Home() {
   return (
     <>
        <Navbar />
+      
 
        <Hero />
-       <Introd />
-       <Career />
-       <Match />
+       
+       
+     
        <Score />
        <Awards />
        <Gold />
        <Journey />
        <Imagegrid />
+
 
        <Footer />
     </>

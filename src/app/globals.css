@@ -10,6 +10,7 @@
 
 /*Navbar*/
 .navigation {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,9 +160,9 @@
 .triangle {
   width: 0;
   height: 0;
-  border-left: 800px solid transparent;
-  border-right: 800px solid transparent;
-  border-bottom: 150px solid white;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-bottom: 250px solid white;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -684,6 +685,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 60px;
+  margin-top: -300px;
 }
 
 .awards-text {
@@ -1134,3 +1136,93 @@ p {
  
 }
 
+
+/* About the Journey Section */
+
+.about-the-journey-container-aa {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  top: -30px;
+  gap: 0;
+  opacity: 1px;  
+}
+
+.image-wrapper-aa {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container-aa {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.image-container2-aa {
+  position: absolute;
+  top: 400.5px; /* Adjusted top to move the image further down */
+  right: 1rem;
+  transform: translateY(-50%) scale(0.8); /* Scaled down to 80% of the original size */
+  z-index: 2;
+  width: 603px; /* Original width */
+  height: 734.7px; /* Original height */
+}
+
+.image-container-aa img,
+.image-container2-aa img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header-aa {
+  position: absolute;
+  top: 100px; /* Adjust as needed to position header */
+  left: 50%; /* Center the header horizontally */
+  transform: translateX(-50%); /* Center the header horizontally */
+  width: 100%; /* Ensure header spans full width */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 10;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.header-aa h1,
+.header-aa h2 {
+  font-family: Lato;
+  text-align: left;
+  color: #FFFFFF;
+  background: transparent;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: auto; /* Adjust width based on content */
+  height: auto; /* Allow height to adjust based on content */
+}
+
+.header-aa h1 {
+  font-size: 145px;
+  font-weight: 800;
+  line-height: 139.31px;
+  letter-spacing: 0.1em;
+}
+
+.header-aa h2 {
+  font-size: 155px;
+  font-weight: 800;
+  line-height: 175px;
+  letter-spacing: 4px;
+  margin: 0;
+  position: relative; /* Ensure it’s correctly positioned within its parent */
+}
