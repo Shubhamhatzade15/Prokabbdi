@@ -17,6 +17,7 @@
   padding: 20px;
   background-image: linear-gradient(to bottom, #0D121B, #0D171E);
   color: #fff;
+  margin-top: -300px;
 }
 
 .navigation ul {
@@ -162,7 +163,7 @@
   height: 0;
   border-left: 1000px solid transparent;
   border-right: 1000px solid transparent;
-  border-bottom: 250px solid white;
+  border-bottom: 250px solid #f9f9f9;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -228,7 +229,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
+  
   color: #333;
 }
 
@@ -239,7 +240,7 @@ body {
   padding: 20px;
   max-width: 1200px;
   margin: 0 60px;
-  background-color: #fff;
+ 
   gap: 100px;
 }
 
@@ -1237,7 +1238,19 @@ p {
   position: relative; /* Ensure it’s correctly positioned within its parent */
 }
 
-/* Vidharbha */
+.triangle-a {
+  width: 0;
+  height: 0;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
+  border-bottom: 250px solid #f9f9f9;
+  position: absolute;
+  top: 84%;
+  margin-left: -280px;
+  transform: translateX(-50%);
+}
+
+/*vidharbha*/
 
 body {
   font-family: Arial, sans-serif;
@@ -1259,24 +1272,23 @@ body {
 .h1-container-va {
   width: 100%;
   max-width: 798px;
-  height: 23px;
   position: relative;
-  top: -250px;
+  top: 0; /* Decrease this value to move down */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0;
   opacity: 1;
-  padding: 0 20px;
+  margin-top: 10rem;
 }
 
 .h1-container-va h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 30.8px;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 22.63px;
-  letter-spacing: 4px;
+  line-height: 1.5rem;
+  letter-spacing: 0.25rem;
   text-align: center;
   color: #D10B0B;
   white-space: nowrap;
@@ -1285,41 +1297,44 @@ body {
 
 .h1-container-va h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 90px;
+  font-size: 4rem;
   font-weight: 800;
-  line-height: 99px;
+  line-height: 5rem;
   text-align: center;
   color: #2E2754;
   white-space: nowrap;
-  margin-top: 20px;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
 }
-
 .p-container-va {
   width: 100%;
   max-width: 1304px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1rem;
+  margin-top: 5rem;
 }
 
 .p-container-va p {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 1.76rem;
   text-align: center;
   color: #38465F;
-  margin-top: -50px;
+  margin: 0; /* Reset margin-top */
   padding: 0;
+  display: inline; /* Make paragraph inline */
+  position: relative; /* Add relative positioning */
+  top: 0; /* Increase this value to move the paragraph down */
 }
-
-.img-container-va img {
+.img-container-va {
+  position: absolute;
   width: 100%;
   max-width: 599px;
   height: auto;
-  position: absolute;
-  top: 1600px;
-  right: 710px;
-  gap: 0px;
+  top: 1850px; /* Increased the value to move the image down */
+  left: 150px; /* Move the image to the left edge of the container */
+  right: auto; /* Remove right property */
   opacity: 1;
   transform: scale(0.8);
   z-index: 1;
@@ -1329,19 +1344,23 @@ body {
   position: absolute;
   width: 100%;
   max-width: 534px;
-  height: auto;
-  top: 1640px;
-  right: 100px;
+  top: 900px; /* Increase this value to move the list container further up */
+  right: -20px; /* Move the container further to the right */
   color: #38465F;
-  padding: 20px;
-  gap: 0px;
+  padding: 1rem;
+  gap: 0;
   opacity: 1;
   font-family: Poppins;
-  font-size: 10px;
+  font-size: 20px; /* Set the font size to 20px */
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
   z-index: 1;
+}
+
+.list-container-va {
+  margin-right: -700px; /* Space from the right edge */
+  margin-top: -900px; /* Adjust this value to position the list container vertically */
 }
 
 .list-container-va ul {
@@ -1351,169 +1370,501 @@ body {
 }
 
 .list-container-va li {
-  padding: 10px;
+  padding: 0.5rem 0;
   color: #38465F;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 20px; /* Set the font size to 20px */
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-align: left;
 }
 
 .list-container-va li::before {
   content: "\2605";
-  font-size: 14px;
+  font-size: 20px; /* Set the font size to 20px */
   color: #38465F;
-  margin-right: 10px;
+  margin-right: 0.5rem;
 }
 
 .list-container-va li:last-child {
   margin-bottom: 0;
 }
 
-/* Fact */
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .container {
+     max-width: 90%;
+   }
+  .h1-container-va {
+     max-width: 90%;
+   }
+  .p-container-va {
+     max-width: 90%;
+   }
+  .img-container-va {
+     max-width: 80%;
+     top: 1200px;
+     left: 100px;
+   }
+ } 
+
+
+ /*fact*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #38465F;
+  background-color: #f9f9f9;
+  padding-top: 300px; /* Add 300px padding to the top of the body */
+}
+
+/* Heading Container */
 
 .heading-containerfa {
-  width: 100%;
-  max-width: 499px;
-  height: 163px;
-  position: absolute;
-  top: 2400px;
-  left: 216px;
-  gap: 0px;
-  opacity: 1;
+  max-width: 80%; /* Adjust width based on screen size */
+  margin: 40px auto; /* Center horizontally */
   text-align: center;
   background-color: #f9f9f9;
-  padding: 0 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1000px; /* Move the heading container down by 300px */
+  margin-left: auto; /* Move the heading container to the right side */
+  margin-right: 400px; /* Remove right margin */
 }
 
 .heading-containerfa h1 {
-  width: 100%;
-  max-width: 418px;
-  height: 23px;
-  gap: 0px;
-  opacity: 1;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 2.5rem; /* Adjust font size based on screen size */
+  font-weight: 700;
+  line-height: 1.2;
+  color: #D10B0B;
+  margin-bottom: 10px;
+}
+
+.heading-containerfa h2 {
+  font-size: 1.5rem; /* Adjust font size based on screen size */
+  font-weight: 700;
+  line-height: 1.2;
+  color: #201E6B;
+  margin-bottom: 20px;
+}
+/* Paragraph Container */
+
+.paragraph-containerfa {
+  display: inline-block; /* Display the container inline */
+  max-width: 80%; /* Adjust width based on screen size */
+  margin: 40px 0 40px 0px; /* Move the container 20px to the left */
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 0; /* Move the paragraph container down by 300px */
+}
+
+.paragraph-containerfa p {
+  font-size: 1.2rem; /* Adjust font size based on screen size */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Lorem Text Container */
+
+.lorem-text-containera {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.lorem-text-item-containera {
+  flex: 1;
+  margin: 10px;
+}
+
+.lorem-text-item {
+  font-family: Poppins;
+  font-size: 29.8px;
   font-weight: 700;
   line-height: 22.63px;
   letter-spacing: 4px;
   text-align: left;
-  color: #D10B0B;
-  padding: 5px;
-  margin: 0;
-  white-space: nowrap;
+  color: #201E6B;  
 }
 
-.heading-containerfa h2 {
-  width: 100%;
-  max-width: 317px;
-  height: 140px;
-  gap: 0px;
-  opacity: 1;
+.lorem-text-item1 {
+color: #D10B0B;
+font-family: Poppins;
+font-size: 29.8px;
+font-weight: 700;
+line-height: 22.63px;
+letter-spacing: 4px;
+text-align: left;
+margin-top: 10px;
+}
+/* Fact Image Container */
+
+.fact-image-containera {
+  max-width: 40%; /* Adjust width to make room for paragraph */
+  margin: 40px;
+  display: inline-block; /* Display inline-block to make it horizontal */
+  vertical-align: top; /* Align top to prevent whitespace issues */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Move the fact image container down by 300px */
+}
+
+.fact-image-containera img {
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto;
+  border-radius: 10px;
+}
+
+.paragraph-containerf2 {
+  max-width: 50%; /* Adjust width to make room for image */
+  margin: 40px;
+  float: right; /* Float to the right side of the image */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: -330px; /* Move the paragraph container up by 30px */
+}
+
+.paragraph-containerf2 p {
+  font-size: 1.2rem; /* Adjust font size based on screen size */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+/* Media Queries */
+
+/* Tablet landscape (1024px and below) */
+@media only screen and (max-width: 1024px) {
+  .heading-containerfa {
+    max-width: 90%;
+  }
+
+  .paragraph-containerfa {
+    max-width: 90%;
+  }
+
+  .lorem-text-containera {
+    max-width: 90%;
+  }
+
+  .fact-image-containera {
+    max-width: 90%;
+  }
+
+  .paragraph-containerf2 {
+    max-width: 90%;
+  }
+}
+
+/* Tablet portrait (768px and below) */
+@media only screen and (max-width: 768px) {
+  .heading-containerfa {
+    width: 300px;
+    height: 100px;
+    top: 1800px;
+    left: 100px;
+  }
+
+  .paragraph-containerfa {
+    width: 600px;
+    top: 2000px;
+    left: 50px;
+  }
+
+  .lorem-text-containera {
+    width: 600px;
+    top: 2400px;
+    right: 0;
+  }
+
+  .fact-image-containera {
+    width: 800px;
+    height: 300px;
+    top: 2800px;
+    left: 100px;
+  }
+
+  .paragraph-containerf2 {
+    width: 400px;
+    top: 1600px;
+    left: 300px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media only screen and (max-width: 480px) {
+  .heading-containerfa {
+    width: 200px;
+    height: 80px;
+    top: 1500px;
+    left: 50px;
+  }
+
+  .paragraph-containerfa {
+    width: 400px;
+    top: 1800px;
+    left: 20px;
+  }
+
+  .lorem-text-containera {
+    width: 400px;
+    top: 2200px;
+    right: 0;
+  }
+
+  .fact-image-containera {
+    width: 600px;
+    height: 200px;
+    top: 2600px;
+    left: 50px;
+  }
+
+  .paragraph-containerf2 {
+    width: 300px;
+    top: 1400px;
+    left: 200px;
+  }
+}
+
+/* Career highlights*/
+
+.career-container {
+  width: 100%; /* Full width */
+  padding: 50px; /* Padding around the container */
+  margin-left: 30px; /* Center the container horizontally */
+  text-align: center; /* Center the text inside the container */
+  background-color: #f9f9f9;
+  align-items: center;
+  justify-items: center;
+  margin-top: -2300px;
+
+}
+
+/* Career Highlights Title */
+.title-career {
+  width: 842px; /* Set width */
+  height: auto; /* Auto height */
+  margin: 2300px auto 50px; /* Add top margin to move the title down */
+  gap: 0px; /* No gap */
+  opacity: 1; /* Set opacity */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  font-size: 80px; /* Font size */
+  font-weight: 700; /* Font weight */
+  line-height: 95.7px; /* Line height */
+  letter-spacing: 2px; /* Letter spacing */
+  text-align: center; /* Text alignment */
+  color: #201E6B; /* Background color */
+  padding: 10px; /* Padding inside the title */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.career-highlights {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items at the top */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  gap: 150px; /* Space between items */
+  margin-top: 20px; /* Space above the container */
+  width: 1316px;
+  height: 1886px;
+  top: 4319px;
+  left: 302px;
+}
+
+/* Highlight Common Styles */
+/* Highlight Common Styles */
+.highlight,
+.highlight3 {
+  display: flex; /* Use flexbox to align children horizontally */
+  flex-direction: row; /* Align children in a row */
+  align-items: center; /* Center items vertically within the row */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the highlight */
+  width: 1301px; /* Fixed width for each highlight item */
+  height: 359px; /* Fixed height for each highlight item */
+  gap: 20px; /* Add a gap between the image and content */
+  opacity: 1; /* Fully visible */
+  position: relative; /* Ensure positioning is relative */
+}
+
+/* Player Image Styles */
+.player-image ,
+.player-image3{
+  width: 350px;
+  height: 350px;
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 0; /* Remove margin-right */
+}
+
+/* Highlight Content Styles */
+.highlight-content,
+.highlight-content3 {
+  width: calc(100% - 370px); /* Adjust width to fit content next to the image */
+  height: auto; /* Allow height to adjust based on content */
+  opacity: 1; /* Make sure the content is visible */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  color: #333; /* Text color */
+}
+
+/* Heading Styles */
+.highlight-content h3,
+ .highlight-content3 h3{
+  font-family: 'Poppins', sans-serif; /* Font family */
+  font-size: 25px; /* Font size */
+  font-weight: 700; /* Font weight */
+  line-height: 36px; /* Line height (match height for vertical centering) */
+  letter-spacing: 2px; /* Letter spacing */
+  text-align: center; /* Center the text */
+  opacity: 1; /* Make sure the text is visible */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  color: #201E6B; /* Text color */
+}
+
+/* Paragraph Styles */
+.highlight-content p,
+.highlight-content3 p{
+  margin-top: 20px;
   font-family: 'Poppins', sans-serif;
-  font-size: 120px;
-  font-weight: 700;
-  line-height: 99px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 44px;
   text-align: left;
-  color: #D10B0B;
+  color: #38465F;
   padding: 10px;
-  margin: 0;
-  white-space: nowrap;
+  border-radius: 5px;
 }
 
-/* Responsive Design */
 
-@media (max-width: 768px) {
-  .navbar-nav {
-    flex-direction: column;
-  }
-
-  .nav-link-about {
-    font-size: 24px;
-    height: auto;
-  }
-
-  .header h1 {
-    font-size: 80px;
-  }
-
-  .header h2 {
-    font-size: 100px;
-  }
-
-  .image-container2 {
-    top: 300px;
-    width: 80%;
-  }
-
-  .h1-container h1,
-  .h1-container h2 {
-    font-size: 20px;
-  }
-
-  .p-container p {
-    font-size: 18px;
-  }
-
-  .img-container img {
-    position: static;
-    width: 100%;
-    transform: none;
-    margin: 20px 0;
-  }
-
-  .list-container {
-    position: static;
-    width: 100%;
-    max-width: 100%;
-    padding: 20px;
-  }
-
-  .heading-containerf h1 {
-    font-size: 20px;
-  }
-
-  .heading-containerf h2 {
-    font-size: 60px;
-  }
+/* Highlight 2 and Highlight 4 Styles */
+.highlight2, .highlight4 {
+  display: flex; /* Use flexbox to align children horizontally */
+  flex-direction: row-reverse; /* Align children with image on the right and content on the left */
+  align-items: center; /* Center items vertically within the row */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the highlight */
+  width: 1316px; /* Fixed width for each highlight item */
+  height: 359px; /* Fixed height for each highlight item */
+  gap: 20px; /* Add a gap between the image and content */
+  opacity: 1; /* Fully visible */
+  position: relative; /* Ensure positioning is relative */
+  margin-top: 50px; /* Add margin-top to ensure space between sections */
+  overflow: hidden;
 }
 
-@media (max-width: 480px) {
-  .navbar {
-    padding: 1rem;
-  }
+/* Player Image 2 and 4 Styles */
+.player-image2, .player-image4 {
+  width: 350px;
+  height: 350px;
+  border-radius: 5px; /* Rounded corners */
+  margin-left: 0; /* Ensure margin-left is adjusted correctly */
+}
 
-  .nav-link {
-    font-size: 1rem;
-  }
+/* Highlight Content 2 and 4 Styles */
+.highlight-content2, .highlight-content4 {
+  width: calc(100% - 370px); /* Adjust width to fit content next to the image */
+  height: auto; /* Allow height to adjust based on content */
+  opacity: 1; /* Make sure the content is visible */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  color: #333; /* Text color */
+  margin-top: 30px; /* Adjust this value to move the content down */
+}
 
-  .header h1 {
-    font-size: 60px;
-  }
+/* Heading Styles for Highlight Content 2 and 4 */
+.highlight-content2 h3, .highlight-content4 h3 {
+  font-family: 'Poppins', sans-serif; /* Font family */
+  font-size: 25px; /* Font size */
+  font-weight: 700; /* Font weight */
+  line-height: 36px; /* Line height (matches height for vertical centering) */
+  letter-spacing: 2px; /* Letter spacing */
+  text-align: center; /* Center the text */
+  opacity: 1; /* Ensure the text is fully visible */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  color: #201E6B; /* Text color */
+}
 
-  .header h2 {
-    font-size: 80px;
-  }
+/* Paragraph Styles for Highlight Content 2 and 4 */
+.highlight-content2 p, .highlight-content4 p {
+  margin-top: 10px; /* Move the paragraph down */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  font-size: 25px; /* Font size */
+  font-weight: 400; /* Font weight */
+  line-height: 44px; /* Line height */
+  text-align: left; /* Align text to the left */
+  padding: 10px; /* Add padding inside the paragraph */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  color: #38465F; /* Text color */
+}
 
-  .image-container2 {
-    top: 200px;
-  }
 
-  .h1-container h1,
-  .h1-container h2 {
-    font-size: 18px;
-  }
+/* Link Styles */
+.highlight-content a,
+.highlight-content2 a,
+.highlight-content3 a,
+.highlight-content4 a {
+  color: #201E6B; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Font weight for the link */
+}
 
-  .p-container p {
+.highlight-content a:hover,
+.highlight-content2 a:hover,
+.highlight-content3 a:hover,
+.highlight-content4 a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+/* Media Queries */
+
+/* Small screens (mobile devices) */
+@media only screen and (max-width: 768px) {
+  /* Adjust font sizes, spacing, and margins for small screens */
+  .title-career {
+    font-size: 30px;
+  }
+  .highlight-content h3 {
+    font-size: 20px;
+  }
+  .highlight-content p {
     font-size: 16px;
   }
+  /* Add other adjustments as needed */
+}
 
-  .heading-containerf h1 {
+/* Medium screens (tablets) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust font sizes, spacing, and margins for medium screens */
+  .title-career {
+    font-size: 35px;
+  }
+  .highlight-content h3 {
+    font-size: 22px;
+  }
+  .highlight-content p {
     font-size: 18px;
   }
+  /* Add other adjustments as needed */
+}
 
-  .heading-containerf h2 {
-    font-size: 50px;
+/* Large screens (desktops) */
+@media only screen and (min-width: 1025px) {
+  /* Adjust font sizes, spacing, and margins for large screens */
+  .title-career {
+    font-size: 40px;
   }
+  .highlight-content h3 {
+    font-size: 25px;
+  }
+  .highlight-content p {
+    font-size: 20px;
+  }
+  /* Add other adjustments as needed */
 }

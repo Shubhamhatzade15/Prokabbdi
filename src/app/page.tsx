@@ -21,10 +21,7 @@ export default function Home() {
        <Hero />
        <Introd />
        <Career />
-      <Match />
-       
-       
-     
+       <Match />
        <Score />
        <Awards />
        <Gold />
