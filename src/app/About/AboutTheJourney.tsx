@@ -15,8 +15,9 @@ const AboutTheJourney = () => {
           />
         </div>
         <div className="header-aa">
-          <h1>ABOUT</h1>
-          <h2>THE <br/> JOURNEY</h2>
+        <Image src="/About (1).png" alt="Matter" className="about-image" width={580} height={200} />
+          <h2>THE</h2> 
+          <h1>JOURNEY</h1>
         </div>
         <div className="image-container2-aa">
           <Image

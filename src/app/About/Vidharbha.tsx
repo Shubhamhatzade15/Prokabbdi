@@ -9,7 +9,7 @@ export default function Vidharbha() {
     <div>
       <main>
        
-        <div className="h1-container-va">
+        <div className="h1-container">
           <h1>⎯⎯⎯Know the Journey⎯⎯⎯</h1>
           <h2>VIDARBHA EXPRESS</h2>
         </div>
@@ -38,11 +38,11 @@ export default function Vidharbha() {
           />
           <div className="list-container-va">
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed do eiusmod tempor incididunt ut labore et</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et</li>
             </ul>
           </div>
         </div>

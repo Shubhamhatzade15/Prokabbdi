@@ -18,13 +18,16 @@
   background-image: linear-gradient(to bottom, #0D121B, #0D171E);
   color: #fff;
   margin-top: -300px;
+  box-shadow: 0px 7px 10px 0px #0000001A;
 }
+
 
 .navigation ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: 150px;
 }
 
 .navigation-link {
@@ -47,6 +50,7 @@
 
 .social-links {
   display: flex;
+  margin-right: 100px;
 }
 
 .social-link {
@@ -1179,7 +1183,7 @@ p {
 
 .image-container2-aa {
   position: absolute;
-  top: 400.5px; /* Adjusted top to move the image further down */
+  top: 350px; /* Adjusted top to move the image further down */
   right: 1rem;
   transform: translateY(-50%) scale(0.8); /* Scaled down to 80% of the original size */
   z-index: 2;
@@ -1217,37 +1221,48 @@ p {
   color: #FFFFFF;
   background: transparent;
   padding: 10px;
-  margin-bottom: 20px;
+  
   width: auto; /* Adjust width based on content */
   height: auto; /* Allow height to adjust based on content */
 }
 
 .header-aa h1 {
-  font-size: 145px;
-  font-weight: 800;
+  font-size: 140px;
+  font-weight: 700;
   line-height: 139.31px;
-  letter-spacing: 0.1em;
+  font-family: Lato;
+  margin-left: 400px;
+  margin-top: -30px;
 }
 
+
 .header-aa h2 {
-  font-size: 155px;
-  font-weight: 800;
+  font-family: Lato;
+  font-size: 140px;
+  font-weight: 700;
   line-height: 175px;
-  letter-spacing: 4px;
-  margin: 0;
-  position: relative; /* Ensure it’s correctly positioned within its parent */
+  
+  margin-left: 195px;
+  position: relative; 
+
 }
 
 .triangle-a {
   width: 0;
   height: 0;
-  border-left: 1000px solid transparent;
-  border-right: 1000px solid transparent;
+  border-left: 1200px solid transparent;
+  border-right: 1200px solid transparent;
   border-bottom: 250px solid #f9f9f9;
   position: absolute;
-  top: 84%;
-  margin-left: -280px;
+  top: 93%;
+  margin-left: -500px;
   transform: translateX(-50%);
+}
+
+.about-image{
+  width: 580;
+  height: 300;
+  margin-left: 210px;
 }
 
 /*vidharbha*/
@@ -1269,7 +1284,7 @@ body {
   padding: 20px;
 }
 
-.h1-container-va {
+.h1-container {
   width: 100%;
   max-width: 798px;
   position: relative;
@@ -1280,10 +1295,10 @@ body {
   flex-direction: column;
   gap: 0;
   opacity: 1;
-  margin-top: 10rem;
+  margin-top: 0;
 }
 
-.h1-container-va h1 {
+.h1-container h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 700;
@@ -1295,7 +1310,7 @@ body {
   margin: 0;
 }
 
-.h1-container-va h2 {
+.h1-container h2 {
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: 800;
@@ -1315,8 +1330,8 @@ body {
 }
 
 .p-container-va p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-family: Poppins;
+  font-size: 28px;
   font-weight: 400;
   line-height: 1.76rem;
   text-align: center;
@@ -1332,8 +1347,8 @@ body {
   width: 100%;
   max-width: 599px;
   height: auto;
-  top: 1850px; /* Increased the value to move the image down */
-  left: 150px; /* Move the image to the left edge of the container */
+  top: 20%; /* Increased the value to move the image down */
+  left: 350px; /* Move the image to the left edge of the container */
   right: auto; /* Remove right property */
   opacity: 1;
   transform: scale(0.8);
@@ -1343,7 +1358,7 @@ body {
 .list-container-va {
   position: absolute;
   width: 100%;
-  max-width: 534px;
+  max-width: 1500px;
   top: 900px; /* Increase this value to move the list container further up */
   right: -20px; /* Move the container further to the right */
   color: #38465F;
@@ -1361,22 +1376,27 @@ body {
 .list-container-va {
   margin-right: -700px; /* Space from the right edge */
   margin-top: -900px; /* Adjust this value to position the list container vertically */
+  width: 100%;
+  height: 100%;
 }
 
 .list-container-va ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .list-container-va li {
   padding: 0.5rem 0;
   color: #38465F;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px; /* Set the font size to 20px */
+  font-family: Poppins;
+  font-size: 25px; /* Set the font size to 20px */
   font-weight: 400;
   line-height: 1.25rem;
   text-align: left;
+  margin: 20px;
 }
 
 .list-container-va li::before {
@@ -1429,18 +1449,18 @@ body {
 .heading-containerfa {
   max-width: 80%; /* Adjust width based on screen size */
   margin: 40px auto; /* Center horizontally */
-  text-align: center;
+  text-align:left;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 150px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 1000px; /* Move the heading container down by 300px */
+  margin-top: 700px; /* Move the heading container down by 300px */
   margin-left: auto; /* Move the heading container to the right side */
   margin-right: 400px; /* Remove right margin */
 }
 
 .heading-containerfa h1 {
-  font-size: 2.5rem; /* Adjust font size based on screen size */
+  font-size: 25px; /* Adjust font size based on screen size */
   font-weight: 700;
   line-height: 1.2;
   color: #D10B0B;
@@ -1448,7 +1468,7 @@ body {
 }
 
 .heading-containerfa h2 {
-  font-size: 1.5rem; /* Adjust font size based on screen size */
+  font-size: 120px; /* Adjust font size based on screen size */
   font-weight: 700;
   line-height: 1.2;
   color: #201E6B;
@@ -1458,19 +1478,21 @@ body {
 
 .paragraph-containerfa {
   display: inline-block; /* Display the container inline */
-  max-width: 80%; /* Adjust width based on screen size */
+  max-width: 100%; /* Adjust width based on screen size */
   margin: 40px 0 40px 0px; /* Move the container 20px to the left */
   text-align: left;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 0; /* Move the paragraph container down by 300px */
+  padding: 150px;
+  
+ 
+  margin-top: -290px; /* Move the paragraph container down by 300px */
 }
 
 .paragraph-containerfa p {
-  font-size: 1.2rem; /* Adjust font size based on screen size */
+  font-size: 25px; /* Adjust font size based on screen size */
   line-height: 1.6;
   margin-bottom: 20px;
+  font-family: Poppins;
+  font-weight: 400;
 }
 
 /* Lorem Text Container */
@@ -1478,6 +1500,11 @@ body {
 .lorem-text-containera {
   display: flex;
   flex-wrap: nowrap;
+  padding: 150px;
+  margin-top: -300px;
+  gap: 50px;
+  text-decoration: underline;
+  font-family: Poppins;
 }
 
 .lorem-text-item-containera {
@@ -1503,19 +1530,19 @@ font-weight: 700;
 line-height: 22.63px;
 letter-spacing: 4px;
 text-align: left;
-margin-top: 10px;
+
 }
 /* Fact Image Container */
 
 .fact-image-containera {
-  max-width: 40%; /* Adjust width to make room for paragraph */
-  margin: 40px;
+  max-width: 100%; /* Adjust width to make room for paragraph */
+  margin-top: -250px;
   display: inline-block; /* Display inline-block to make it horizontal */
   vertical-align: top; /* Align top to prevent whitespace issues */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px; /* Move the fact image container down by 300px */
+  padding: 150px;
+  
+ 
+   /* Move the fact image container down by 300px */
 }
 
 .fact-image-containera img {
@@ -1525,19 +1552,18 @@ margin-top: 10px;
 }
 
 .paragraph-containerf2 {
+  position: relative;
   max-width: 50%; /* Adjust width to make room for image */
-  margin: 40px;
+  
   float: right; /* Float to the right side of the image */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: -330px; /* Move the paragraph container up by 30px */
+  padding: 150px;
+  margin-top: -650px; 
 }
 
 .paragraph-containerf2 p {
-  font-size: 1.2rem; /* Adjust font size based on screen size */
+  font-size: 25px; /* Adjust font size based on screen size */
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-left: -90px;
 }
 /* Media Queries */
 
@@ -1638,8 +1664,8 @@ margin-top: 10px;
 
 .career-container {
   width: 100%; /* Full width */
-  padding: 50px; /* Padding around the container */
-  margin-left: 30px; /* Center the container horizontally */
+  padding: 200px; /* Padding around the container */
+  margin-left: 40px; /* Center the container horizontally */
   text-align: center; /* Center the text inside the container */
   background-color: #f9f9f9;
   align-items: center;
