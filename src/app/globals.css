@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-image: linear-gradient(to bottom, #0D121B, #0D171E);
   color: #fff;
   margin-top: -300px;
@@ -27,11 +27,11 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .navigation-link {
-  margin-right: 100px;
+  margin-right: 70px;
   text-decoration: none;
   color:#FFFFFF;
   font-size: 30px;
@@ -133,7 +133,7 @@
 .hero-section .left h1 {
   font-family: Lato;
   font-weight: 700;
-  font-size: 140px;
+  font-size: 130px;
   margin-bottom: 0;
   margin: 120px;
   line-height: 0.8;
@@ -155,7 +155,7 @@
 }
 
 .hero-section .right img {
-  height: 650px;
+  height: 630px;
   vertical-align: baseline;
   align-items: baseline;
   width: 100%;
@@ -169,7 +169,7 @@
   border-right: 1000px solid transparent;
   border-bottom: 250px solid #f9f9f9;
   position: absolute;
-  bottom: 0;
+  bottom: -5%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1198,6 +1198,12 @@ p {
   height: auto;
 }
 
+.image-container2-aa img {
+  
+  width: 100%;
+  height: 700px;
+}
+
 .header-aa {
   position: absolute;
   top: 100px; /* Adjust as needed to position header */
@@ -1227,22 +1233,21 @@ p {
 }
 
 .header-aa h1 {
-  font-size: 140px;
+  font-size: 130px;
   font-weight: 700;
   line-height: 139.31px;
   font-family: Lato;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: -30px;
 }
 
 
 .header-aa h2 {
   font-family: Lato;
-  font-size: 140px;
+  font-size: 130px;
   font-weight: 700;
   line-height: 175px;
-  
-  margin-left: 195px;
+  margin-left: 130px;
   position: relative; 
 
 }
@@ -1250,19 +1255,19 @@ p {
 .triangle-a {
   width: 0;
   height: 0;
-  border-left: 1200px solid transparent;
-  border-right: 1200px solid transparent;
+  border-left: 1000px solid transparent;
+  border-right: 1000px solid transparent;
   border-bottom: 250px solid #f9f9f9;
   position: absolute;
   top: 93%;
-  margin-left: -500px;
+  margin-left: -290px;
   transform: translateX(-50%);
 }
 
 .about-image{
-  width: 580;
-  height: 300;
-  margin-left: 210px;
+  width: 500px;
+  height: 120px;
+  margin-left: 150px;
 }
 
 /*vidharbha*/
@@ -1348,7 +1353,7 @@ body {
   max-width: 599px;
   height: auto;
   top: 20%; /* Increased the value to move the image down */
-  left: 350px; /* Move the image to the left edge of the container */
+  left: 200px; /* Move the image to the left edge of the container */
   right: auto; /* Remove right property */
   opacity: 1;
   transform: scale(0.8);
@@ -1557,13 +1562,12 @@ text-align: left;
   
   float: right; /* Float to the right side of the image */
   padding: 150px;
-  margin-top: -650px; 
+  margin-top: -700px; 
 }
 
 .paragraph-containerf2 p {
   font-size: 25px; /* Adjust font size based on screen size */
   line-height: 1.6;
-  margin-left: -90px;
 }
 /* Media Queries */
 
@@ -1664,8 +1668,8 @@ text-align: left;
 
 .career-container {
   width: 100%; /* Full width */
-  padding: 200px; /* Padding around the container */
-  margin-left: 40px; /* Center the container horizontally */
+  padding: 150px; /* Padding around the container */
+  margin-left: -35px; /* Center the container horizontally */
   text-align: center; /* Center the text inside the container */
   background-color: #f9f9f9;
   align-items: center;
@@ -1676,21 +1680,19 @@ text-align: left;
 
 /* Career Highlights Title */
 .title-career {
-  width: 842px; /* Set width */
+  width: 100%; /* Set width */
   height: auto; /* Auto height */
   margin: 2300px auto 50px; /* Add top margin to move the title down */
-  gap: 0px; /* No gap */
-  opacity: 1; /* Set opacity */
-  font-family: 'Poppins', sans-serif; /* Font family */
+  font-family: Poppins; /* Font family */
   font-size: 80px; /* Font size */
   font-weight: 700; /* Font weight */
-  line-height: 95.7px; /* Line height */
   letter-spacing: 2px; /* Letter spacing */
   text-align: center; /* Text alignment */
   color: #201E6B; /* Background color */
   padding: 10px; /* Padding inside the title */
-  border-radius: 5px; /* Optional: rounded corners */
+  margin-left: 20px;
 }
+
 
 .career-highlights {
   display: flex;
